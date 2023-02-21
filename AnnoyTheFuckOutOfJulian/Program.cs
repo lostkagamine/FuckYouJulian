@@ -5,7 +5,7 @@ namespace AnnoyTheFuckOutOfJulian;
 
 public static class Program
 {
-    private static LightMode mode = new RgbLightMode();
+    private static LightMode mode = new FlashRedLightMode();
 
     public static void Main(string[] args)
     {

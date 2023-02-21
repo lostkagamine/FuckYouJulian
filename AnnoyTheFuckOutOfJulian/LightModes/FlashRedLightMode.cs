@@ -2,7 +2,7 @@ using System.Drawing;
 
 namespace AnnoyTheFuckOutOfJulian.LightModes;
 
-public class FlashRedTimeMode : LightMode
+public class FlashRedLightMode : LightMode
 {
     private bool on = false;
     private double counter = 0;
