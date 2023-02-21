@@ -14,11 +14,9 @@ public abstract class LightMode
             .Replace("{G}", c.G.ToString())
             .Replace("{B}", c.B.ToString())
             .Replace("{BR}", c.A.ToString());
-        Task.Run(async () =>
-        {
-            return a
+        Task.Run(async () => 
+            await a
                 .WithHeader("User-Agent", "gh/ry00001/FuckYouJulian")
-                .GetAsync();
-        });
+                .GetAsync());
     }
 }
